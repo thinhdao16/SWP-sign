@@ -1,0 +1,36 @@
+
+
+.border-md-sig {
+    border-width: 2px;
+}
+
+
+.form-control-sig:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+.form-control-sig::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-contro-sig:focus {
+    box-shadow: none;
+}
+.btn-google {
+    color: #545454;
+background-color: #ffffff;
+box-shadow: 0 1px 2px 1px #ddd;
+}
+.btn-google:hover, .btn-google:focus {
+    background: #A44646;
+}
+a[type=btn-sign]{
+    background-color: #A44646;
+}
+a[type=btn-google]:hover, a[type=btn-google]:focus{
+    background-color:#114376;
+}
+.href-none{
+    text-decoration: none;
+    color:#727171
+}
